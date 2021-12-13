@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500&display=swap');
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.firstone{
+    margin-left: 120px;
+}
+.secondone{
+    margin-left: 120px;
+}
+header{
+    margin: 0px 30px 20px 225px;
+    margin-top: 30px;
+    margin-left: 225px;
+    color: white;
+}
+select{
+    padding: 7px 357px 7px 33px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: none;
+    opacity: 70%;
+    border: 1px solid;
+    border-color: white; 
+}
+.radiotype{
+    margin-left: 130px;
+}
+input{
+    padding: 7px 300px 7px 33px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: none;
+    opacity: 70%;
+    border: 1px solid;
+    border-color: white;
+}
+
+
+.addBtn{
+    margin-left: 388px;
+    padding: 10px;
+    background: #EA6C66;
+    cursor: pointer;
+    opacity: 80%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+.addBtn:hover {
+background-color: #000C0A;
+}
+table{
+    border: 2px solid;
+    border-color: #ffffff;
+    font-size: 12px;
+    
+}
+th{
+    background-color: white;
+    padding: 7px 34px 7px 16px;
+    opacity: 80%;
+}
+td{
+padding-left: 15px;
+}

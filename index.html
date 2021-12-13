@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<header>
+    <h1>SOLI LIBRARY</h1>
+</header>
+    <body>
+        <form action="" >
+        <div class="firstone">
+        <div>
+        <input type="text" name="titre" id="titre"  placeholder="titre..."/><br>
+        <input type="text" name="auteur" id="auteur" placeholder="Auteur" /><br>
+        <input type="text" name="prix" id="prix" placeholder="Prix"/><br>
+        <input type="date" name="date" id="date" /><br>
+        
+        <select class="langue" name="type" id="langue">
+            <option >arabe</option>
+            <option >francais</option>
+            <option >anglais</option>
+          </select><br>
+          <form class="radiotype" id="type">
+          <input type="radio" id="Roman" name="fav_language" value="Roman">
+          <label for="Roman">Roman</label>
+          <input type="radio" id="Roman" name="fav_language" value="Essai">
+          <label for="Essai">Essai</label>
+          <input type="radio" id="Roman" name="fav_language" value="Bande-Dessinée">
+          <label for="Bande-Dessinée">Bande-Dessinée</label><br>
+          </form>
+          
+        <button class="addBtn" onclick="addRow();event.preventDefault">confirmer</button><br/><br/>
+    </div>
+</div>
+</form>
+<div class="secondone">
+        <table >
+            
+            <tr>
+                <th>titre</th>
+                <th>auteur</th>
+                <th>prix</th>
+                <th>date</th>
+                <th>langue</th>
+                <th>type</th>
+            </tr>
+            
+            
+            
+        </table>
+    </div>
+<script src="jscode.js"></script>
+    </body>
+
+</html>
